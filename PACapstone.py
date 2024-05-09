@@ -232,8 +232,6 @@ def predict_cancellation():
 # Memuat data
 df = load_data()
 
-# Mengatur sidebar
-df2 = pd.read_csv('DataCleanedNew.csv')
 nav_options = {
     "About": lambda: show_About(),
     "Visualisasi dan Insight": lambda: show_VisualizationAndInsight(df),
